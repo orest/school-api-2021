@@ -11,5 +11,9 @@ namespace Todos.Api.Controllers
     [ApiController]
     public class MyController : ControllerBase
     {
+        public IActionResult Get()
+        {
+            return Ok(new { message = "Everybody cool guys and girls" });
+        }
     }
 }
