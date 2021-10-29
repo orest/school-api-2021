@@ -13,10 +13,11 @@ namespace Todos.Api.Controllers
     public class TestController : ControllerBase
     {
         public IActionResult Get() {
-            return Ok(new { message = "Orest is a nice guy" });
+            return Ok(new { message = "Orest is a nice guyQQQ" });
         }
+
         public IActionResult Get(int id) {
-            return Ok(new { message = "Orest is a nice guy" });
+            return Ok(new { message = "Orest is a nice guy!!!!!" });
         }
     }
 }
