@@ -13,7 +13,6 @@ namespace Todos.Api.Controllers
     //[Route("api/[controller]")]
 
     [Route("api/todos")]
-
     [ApiController]
     public class TodosController : ControllerBase
     {
