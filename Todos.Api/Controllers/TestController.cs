@@ -15,5 +15,8 @@ namespace Todos.Api.Controllers
         public IActionResult Get() {
             return Ok(new { message = "Orest is a nice guy" });
         }
+        public IActionResult Get(int id) {
+            return Ok(new { message = "Orest is a nice guy" });
+        }
     }
 }
