@@ -13,7 +13,7 @@ namespace Todos.Api.Controllers
     {
 
         public IActionResult Get() {
-            return Ok(new { message = "Orest like whiskey!!!!" });
+            return Ok(new { message = "Orest like vodka !!!!" });
 
         }
 
